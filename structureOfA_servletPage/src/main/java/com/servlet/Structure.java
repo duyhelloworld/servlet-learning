@@ -65,8 +65,8 @@ public final class Structure extends HttpServlet {
                 + "<tr><td>" + "ServletConfig </td>" + "<td>/config</td></tr>"
                 + "<tr><td>" + "Codes Http </td>" + "<td>/code</td></tr>"
                 + "<tr><td>" + "Read Data URl </td>" + "<td>/post</td></tr>"
-                + "<tr><td>" + "hello </td>" + "<td>/hello</td></tr>"
-                + "<tr><td>" + "hello </td>" + "<td>/hello</td></tr>"
+                + "<tr><td>" + "Post Get App </td>" + "<td>/form</td></tr>"
+                + "<tr><td>" + "Cookies</td>" + "<td>/get-cookies and /check-cookies</td></tr>"
                 + "</table>");
 
         printer.println("</body>");
