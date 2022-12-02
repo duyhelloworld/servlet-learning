@@ -1,0 +1,35 @@
+URI : /structure/req
+ContextPath : /structure
+Auth type : null
+Content : 
+	Type : null
+	Length : -1
+Encode : null
+LocalName : localhost
+LocalAddress : 127.0.0.1
+Method : GET
+Protocol : HTTP/1.1
+Request URL : http://localhost:8084/structure/req
+Query String : null
+Key : host
+Valueorg.apache.tomcat.util.http.ValuesEnumerator@3be3c3da
+Key : user-agent
+Valueorg.apache.tomcat.util.http.ValuesEnumerator@4a2789fd
+Key : accept
+Valueorg.apache.tomcat.util.http.ValuesEnumerator@2fd2313f
+Key : accept-language
+Valueorg.apache.tomcat.util.http.ValuesEnumerator@72a22b33
+Key : accept-encoding
+Valueorg.apache.tomcat.util.http.ValuesEnumerator@57fadbae
+Key : connection
+Valueorg.apache.tomcat.util.http.ValuesEnumerator@21e4d8cd
+Key : upgrade-insecure-requests
+Valueorg.apache.tomcat.util.http.ValuesEnumerator@1f814e07
+Key : sec-fetch-dest
+Valueorg.apache.tomcat.util.http.ValuesEnumerator@7c990577
+Key : sec-fetch-mode
+Valueorg.apache.tomcat.util.http.ValuesEnumerator@7d3f96e1
+Key : sec-fetch-site
+Valueorg.apache.tomcat.util.http.ValuesEnumerator@7a1a0b3b
+Key : sec-fetch-user
+Valueorg.apache.tomcat.util.http.ValuesEnumerator@6ffe8309
