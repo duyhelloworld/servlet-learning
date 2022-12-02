@@ -21,13 +21,14 @@ public class PageSource extends HttpServlet{
         Cookie name = new Cookie("name", "Pham Duc Duy");
         Cookie age = new Cookie("age", "19");
 
-        // name.setMaxAge(11);
         name.setMaxAge(7);
         resp.addCookie(name);
+        // name.setMaxAge(11);
         // resp.addCookie(name);
         age.setMaxAge(10);
         resp.addCookie(age);
         // age.setMaxAge(10);
+        
         // writer.println("Cookie 1 : <br>" + name.getName() + "<br>" + name.getValue() + "<br>");
         // writer.println("Cookie 2 : <br>" + age.getName() + "<br>" + age.getValue() + "<br>");
     }
