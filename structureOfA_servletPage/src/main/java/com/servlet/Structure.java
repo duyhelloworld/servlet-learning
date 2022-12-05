@@ -65,10 +65,12 @@ public final class Structure extends HttpServlet {
                 + "<tr><td>" + "ServletConfig </td>" + "<td>/config</td></tr>"
                 + "<tr><td>" + "Codes Http </td>" + "<td>/code</td></tr>"
                 + "<tr><td>" + "Read Data URl </td>" + "<td>/post</td></tr>"
-                + "<tr><td>" + "Post Get App </td>" + "<td>/form</td></tr>"
+                + "<tr><td>" + "Post Get App </td>" + "<td>/form, /app</td></tr>"
                 + "<tr><td>" + "Cookies</td>" + "<td>/get-cookies and /check-cookies</td></tr>"
                 + "<tr><td>" + "App Login use Cookies</td>" + "<td>/login, /home</td></tr>"
-                + "<tr><td>" + "Session</td>" + "<td>/session1 /session2</td></tr>"
+                + "<tr><td>" + "Filter</td>" + "<td>/check-cookies</td></tr>"
+                + "<tr><td>" + "Filter - App limit Rate</td>" + "<td>/web, /capcha</td></tr>"
+                + "<tr><td>" + "ServletContext</td>" + "<td>/context</td></tr>"
 
                 + "</table>");
 
