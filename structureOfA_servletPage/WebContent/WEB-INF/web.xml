@@ -14,4 +14,30 @@
         <servlet-name>Servlet 3.0</servlet-name>
         <url-pattern>/hello</url-pattern>
     </servlet-mapping> -->
+
+
+    <error-page>
+        <error-code>404</error-code>
+        <location>/error-handler</location>
+    </error-page>
+    <error-page>
+        <exception-type>java.lang.Throwable</exception-type>
+        <location>/error-hander</location>
+    </error-page>
+
+    <error-page>
+        <exception-type>javax.servlet.ServletException</exception-type>
+        <location>/error-handler</location>
+    </error-page>
+
+    <error-page>
+        <exception-type>javax.servlet.ServletException</exception-type>
+        <location>/error-handler</location>
+    </error-page>
+    <error-page>
+        <exception-type>javax.servlet.ServletException</exception-type>
+        <location>/error-handler</location>
+    </error-page>
+
+
 </web-app>

@@ -9,7 +9,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-@WebServlet(urlPatterns = { "/"}, loadOnStartup = 1)
+@WebServlet(urlPatterns = { "/hello"}, loadOnStartup = 1)
 public final class Structure extends HttpServlet {
 
     /**
